@@ -9,9 +9,10 @@
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "public": true,
-    "buildCommand": "vite build",
+    "buildCommand": "apt-get update && apt-get install -y openssl && vite build",
     "outputDirectory": "public",
     "env": {
+        "LD_LIBRARY_PATH": "/usr/lib:/usr/lib64:/lib:/lib64",
         "APP_ENV": "production",
         "APP_DEBUG": "false",
         "APP_URL": "https://yourproductionurl.com",
