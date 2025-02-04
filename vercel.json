@@ -9,7 +9,7 @@
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "public": true,
-    "buildCommand": "apt-get update && apt-get install -y openssl && vite build",
+    "buildCommand": "vite build",
     "outputDirectory": "public",
     "env": {
         "LD_LIBRARY_PATH": "/usr/lib:/usr/lib64:/lib:/lib64",
