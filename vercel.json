@@ -7,14 +7,13 @@
         { "src": "/build/(.*)", "dest": "/public/build/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
-    "buildCommand": "vite build",
+    "buildCommand": "composer install && php artisan optimize && vite build",
     "outputDirectory": "public",
     "public": true,
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
         "APP_URL": "https://yourproductionurl.com",
-        "APP_KEY": "base64:teIR5mT7nmQ9YJcq2WKemOtP/wVWemxUgR5TMAejiS8=",
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
