@@ -1,0 +1,107 @@
+@media screen and (max-width: 1200px) {
+    .idr{
+        font-size: 14px;
+    }
+    .price{
+        font-size: 28px;
+    }
+    .month {
+        font-size: 9px;
+        line-height: 4.5;    
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .idr{
+        font-size: 22px;
+    }
+    .price{
+        font-size: 50px;
+    }
+    .month {
+        font-size: 14px;
+        line-height: 5.5;    
+    }
+}
+@media screen and (max-width: 769px) {
+    .price{
+        font-size: 50px;
+    }
+
+    .idr{
+        font-size: 24px;
+    }
+    .month{
+        font-size: 14px;
+    }
+
+    .btn-regist{
+        font-size: 14px;
+    }
+    .accordion-item-description img {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .absolute-about{
+        left: unset;
+    }
+    
+    .race-about{
+        font-size: 80px;
+    }
+
+    .reverse-content{
+        flex-direction: column-reverse;
+    }
+
+    .img-contact{
+        display: none;
+    }
+
+    .idr{
+        font-size: 28px;
+    }
+    .price{
+        font-size: 60px;
+    }
+    .month {
+        font-size: 16px;
+        line-height: 5.5;    
+    }
+
+    .flex-reserve-mobile{
+        flex-direction: column-reverse;
+    }
+    .text-broadband-mobile{
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .text-center-mobile{
+        text-align: center;
+    }
+
+    .width-80-mobile{
+        width: 80%;
+    }
+
+    .title-dedicated{
+        font-size: 32px;
+        margin-top: 15px;
+    }
+
+    .desc-dedicated{
+        font-size: 14px;
+    }
+
+    .mt-10-mobile{
+        margin-top: 10px;
+    }
+
+    .slick-arrow{
+        display: none !important;
+    }
+}
