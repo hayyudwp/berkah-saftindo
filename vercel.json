@@ -7,7 +7,7 @@
         { "src": "/build/(.*)", "dest": "/public/build/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
-    "buildCommand": "composer install && php artisan optimize && vite build",
+    "buildCommand": "vite build",
     "outputDirectory": "public",
     "public": true,
     "env": {
